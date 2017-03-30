@@ -67,22 +67,19 @@ blockquote{
 
 }
 #content{
-    /*display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;*/
     position:relative;
+    height: 100vh;
 }
 
 #container{
-    /*width: 75%;*/
     color: black;
 }
 
 .sidebar{
-    /*width: 25%;*/
-    height: 420px;
     color: black;
     position: absolute;
+    top:0;
+    right:15px;
 }
 
 a{
