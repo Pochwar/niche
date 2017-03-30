@@ -12,3 +12,7 @@ Plugin wordpress requis :
 Menu :
     -affichage de l'option menu dans le theme grace à la fonction "register_my_menus"
     -affichage dumenu dans le header grace à wp_nav_menu
+
+
+Page des auteurs :
+    -création d'une div avec classe "author" a personaliser dans le css
