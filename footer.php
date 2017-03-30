@@ -1,8 +1,8 @@
-<?php
-/**
- * Created by PhpStorm.
- * User: snipzer
- * Date: 30/03/17
- * Time: 09:49
- */
-?>
+<div id="footer">
+    <p>
+        Copyright 2007 <a href="<?php bloginfo('url'); ?>"><?php bloginfo('name'); ?></a>
+    </p>
+</div>
+
+</div></body>
+</html>
