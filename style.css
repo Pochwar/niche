@@ -1,16 +1,65 @@
+/*header*/
 #header{
-    background-image: url(http://www.o-saveurs-paysannes.fr/wp-content/uploads/2014/11/fond-prairie.jpg);
-    background-image: 100%;
-    color: red;
+    background-image: url('img/header.jpg');
+    background-size: cover;
+    height: 400px;
+    background-position-y: center;
+    position: relative;
 }
+
+#header p{
+    text-align: center;
+    color: #fff;
+    font-size: 1.5em;
+}
+
+body{
+    margin: 0;
+}
+
+h1{
+    text-align: center;
+    margin: 0;
+}
+
+h1 a{
+    color: #fff;
+    background: rgba(0,0,0,0.7);
+    padding: 5px 15px;
+    border-radius: 5px;
+    font-size: 2em;
+}
+
 #menu{
-  color: blue;
-  text-decoration: underline;
+    position: absolute;
+    bottom:0;
+    width: 100%;
+}
+
+#menu ul{
+    display : flex;
+    justify-content: center;
+}
+
+#menu li{
+    list-style: none;
+}
+
+#menu a{
+    color: #fff;
+    background: rgba(0,0,0,0.7);
+    padding: 5px;
+    margin: 0 15px;
+    border-radius: 5px;
+    font-size: 1.3em;
 }
 
 #wrapper{
+
   text-align: center;
   background-color: grey;
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/1/10/Prairie_Ried_Illwald.jpg);
+    background-size: cover;
 }
 blockquote{
   color: black;
