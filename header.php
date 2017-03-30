@@ -17,4 +17,8 @@
             <h1><a href="<?php bloginfo('url'); ?>"><?php bloginfo('name'); ?></a></h1>
             <?php bloginfo('description'); ?>
 
+            <?php get_template_part( 'template-parts/header/header', 'image' ); ?>
+            <div id="menu">
+                <?php wp_nav_menu(); ?>
+            </div>
         </div>
