@@ -1,4 +1,4 @@
-# niche 
+# Niche 
 Projet de cours : Création de template wordpress
 
 # Dépendances :
