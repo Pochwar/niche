@@ -1,3 +1,18 @@
+#header{
+    background-image: url(http://www.o-saveurs-paysannes.fr/wp-content/uploads/2014/11/fond-prairie.jpg);
+    background-image: 100%;
+    color: red;
+}
+#menu{
+  color: blue;
+  text-decoration: underline;
+}
+
+#wrapper{
+  background-image: url(https://upload.wikimedia.org/wikipedia/commons/1/10/Prairie_Ried_Illwald.jpg);
+  background-size: cover;
+}
+
 /*
 Theme Name: Niche
 Theme URI: http://www.passioniches.com
