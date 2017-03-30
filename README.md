@@ -1,18 +1,21 @@
-# niche
-Projet de cours : création de template wordpress
+# niche 
+Projet de cours : Création de template wordpress
 
-Dépendances :
-    -bootstrap 3.3.7
-
-Plugin wordpress requis :
-    -contact form 7 => Gestion du formulaire de contact
-        -postman => Dépendance pour l'envois de mail smtp
+# Dépendances :
+    Bootstrap 3.3.7.
+    Contact form 7 pour la gestion du formulaire de contact.
+    Postman qui est une dépendance de contact form 7 pour l'envois de mail smtp.
 
 
-Menu :
-    -affichage de l'option menu dans le theme grace à la fonction "register_my_menus"
-    -affichage dumenu dans le header grace à wp_nav_menu
+# Initialisation de Postman:
+    Il faut avoir un compte gmail afin de pouvoir autoriser la connexion en Oauth2.
+    Dans réglage => postmanSMTP laisser vous guider par l'assistant d'installation.
 
 
-Page des auteurs :
-    -création d'une div avec classe "author" a personaliser dans le css
+# Menu :
+    Affichage de l'option menu dans le thème grâce à la fonction "register_my_menus".
+    Affichage du menu dans le header grâce à la fonction "wp_nav_menu".
+
+
+# Pour ajouter d'autre page :
+    Créer une div avec comme classe le nom de votre page à personaliser dans le css.
