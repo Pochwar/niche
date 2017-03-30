@@ -13,6 +13,7 @@ Projet de cours : Création de template wordpress
 
 
 # Menu :
+    Dans apparence -> menu cocher la case "Header menu"
     Affichage de l'option menu dans le thème grâce à la fonction "register_my_menus".
     Affichage du menu dans le header grâce à la fonction "wp_nav_menu".
 
