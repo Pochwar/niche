@@ -6,7 +6,9 @@
     <p>
         Site créé par : snipzer, poch, Aliz, LokiHash
     </p>
-    <?php echo do_shortcode( '[contact-form-7 id="13" title="Formulaire de base"]' ); ?>
+    <div id="contactForm">
+        <?php echo do_shortcode('[contact-form-7 id="13" title="Formulaire de base"]'); ?>
+    </div>
 </div>
 
 </div></body>
