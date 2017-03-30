@@ -56,10 +56,9 @@ h1 a{
 
 #wrapper{
 
-  text-align: center;
-  background-color: grey;
-    background-image: url(https://upload.wikimedia.org/wikipedia/commons/1/10/Prairie_Ried_Illwald.jpg);
-    background-size: cover;
+  /*background-image: linear-gradient(green, white);*/
+  background-image: repeating-radial-gradient(white, green);
+
 }
 blockquote{
   color: black;
@@ -67,18 +66,29 @@ blockquote{
 
 }
 .sidebar{
-  width: 25%;
-  height: 420px;
+  width: 15%;
+  height: 400px;
   background-image: url(https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTp-n4oIi9l4ZYLqJiaH1_LfdpRVaLko-7ANLquw2K3cMYKBzmf);
   color: black;
   float: right;
 }
 #container{
   color: black;
+  text-align: left;
+}
+#container h2{
+  text-align: center;
+  text-transform: capitalize;
+  text-shadow: green 0 -1px;
+}
+div .entry{
+  font-style: italic;
+
 }
 a{
   color: blue;
 }
+
 /*
 Theme Name: Niche
 Theme URI: http://www.passioniches.com
