@@ -17,7 +17,7 @@
 
             <?php get_template_part( 'template-parts/header/header', 'image' ); ?>
             <?php if ( has_nav_menu( 'header-menu' ) ) : ?>
-                <div id="menu">
+                <div id="menu" class="navbar navbar-toggleable-md">
                     <?php wp_nav_menu( array( 'theme_location' => 'header-menu' ) ); ?>
                 </div>
             <?php endif; ?>
