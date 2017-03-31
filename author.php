@@ -4,7 +4,7 @@ Template Name: author
  */
 ?>
 <?php get_header(); ?>
-
+<div id="content">
     <div id="box">
 
 <?php if(have_posts()) : ?><?php while(have_posts()) : the_post(); ?>
@@ -28,4 +28,5 @@ Template Name: author
 
 
 <?php get_sidebar(); ?>
+</div>
 <?php get_footer(); ?>
