@@ -114,10 +114,23 @@ a{
 
 #footer{
     background: #464D52;
+    text-align: center;
+    color: #fff;
+}
+
+#footer a{
+    color: #fff;
 }
 
 #footer p {
     margin : 0;
+}
+
+#commentform input, #commentform textarea{
+    box-shadow: 1px 1px #989898;
+    border-radius: 5px;
+    background-image: linear-gradient(white, #d5d5d5);
+    border: 0;
 }
 
 /*
