@@ -5,7 +5,7 @@ Template Name: contact
 ?>
 <?php get_header(); ?>
 <div id="content">
-    <div id="box">
+    <div id="boxContact">
 
         <?php if(have_posts()) : ?><?php while(have_posts()) : the_post(); ?>
 
@@ -13,7 +13,7 @@ Template Name: contact
 
                 <h3><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
 
-                <div class="author">
+                <div class="contact">
 
                     <?php the_content(); ?>
 
