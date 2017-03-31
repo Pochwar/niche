@@ -1,18 +1,3 @@
-#header{
-    background-image: url(http://www.o-saveurs-paysannes.fr/wp-content/uploads/2014/11/fond-prairie.jpg);
-    background-image: 100%;
-    color: red;
-}
-#menu{
-  color: blue;
-  text-decoration: underline;
-}
-
-#wrapper{
-  background-image: url(https://upload.wikimedia.org/wikipedia/commons/1/10/Prairie_Ried_Illwald.jpg);
-  background-size: cover;
-}
-
 /*
 Theme Name: Niche
 Theme URI: http://www.passioniches.com
@@ -20,3 +5,209 @@ Description: The first theme created by Niche team
 Version: 0.1
 Authors: Loïc Arif, Alizé Bernardeau, Jean Poulard & Benoît Ripoche
 */
+
+/*header*/
+#header{
+    background-image: url('img/header.jpg');
+    background-size: cover;
+    height: 400px;
+    background-position-y: center;
+    position: relative;
+}
+
+#header p{
+    text-align: center;
+    color: #fff;
+    font-size: 1.5em;
+}
+
+body{
+    margin: 0;
+}
+
+h1{
+    text-align: center;
+    margin: 0;
+}
+
+h1 a{
+    color: #fff;
+    background: rgba(0,0,0,0.7);
+    padding: 5px 15px;
+    border-radius: 5px;
+    font-size: 2em;
+    text-decoration:none;
+}
+
+#menu{
+    position: absolute;
+    bottom:0;
+    width: 100%;
+}
+
+#menu ul{
+    display : flex;
+    justify-content: center;
+}
+
+#menu li{
+    list-style: none;
+}
+
+#menu a{
+    color: #fff;
+    background: rgba(0,0,0,0.7);
+    padding: 5px;
+    margin: 0 15px;
+    border-radius: 5px;
+    font-size: 1.3em;
+    text-decoration: none;
+}
+
+#wrapper{
+}
+
+#content{
+    display: flex;
+    justify-content: space-between;
+    min-height: 100vh;
+    background: #F2E8C0;
+}
+
+#content a{
+    color: #000;
+}
+
+#container{
+    color: black;
+    text-align: left;
+    width: 75%;
+}
+
+#container h2{
+    text-align: center;
+    text-transform: capitalize;
+    text-shadow: green 0 -1px;
+}
+
+.sidebar{
+    width: 20%;
+    min-width:250px;
+    margin: 15px;
+    background: rgba(0,0,0,0.7);
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    border-radius: 5px;
+    align-items: center;
+}
+
+.sidebar #pub{
+    padding:10px;
+}
+.sidebar{
+    color: #fff;
+    font-size :1.1em;
+}
+
+div .entry{
+    font-style: italic;
+    margin-left: 10px;
+}
+
+#footer{
+    background: #464D52;
+    text-align: center;
+    color: #fff;
+}
+
+#footer a{
+    color: #fff;
+}
+
+#footer p {
+    margin : 0;
+}
+
+#commentform input, #commentform textarea, .wpcf7-form input, .wpcf7-form textarea{
+    box-shadow: 1px 1px #989898;
+    border-radius: 5px;
+    background-image: linear-gradient(white, #d5d5d5);
+    border: 0;
+}
+
+.comments-template{
+    margin-left:10px;
+}
+
+/*
+RESPONSIVE
+*/
+@media screen and (max-width: 900px) {
+    #content{
+        flex-direction: column;
+    }
+    #container{
+        width:100%
+    }
+    .sidebar{
+        width: 100%;
+        margin:0;
+        flex-direction: row;
+        align-items: flex-start;
+    }
+    #header{
+        height: 250px;
+    }
+}
+
+@media screen and (max-width: 560px) {
+    h1 a{
+        font-size: 1.2em;
+    }
+    #content{
+        flex-direction: column;
+    }
+    #container{
+        width:100%
+    }
+    .sidebar{
+        flex-direction: column;
+        align-items: center;
+    }
+    #header{
+        height: 108px;
+    }
+
+    #menu{
+        top: 5px;
+        color: #fff;
+        background: rgba(0,0,0,0.7);
+        width: 38px;
+        height: 34px;
+        right: 5px;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+
+    #menu:hover .menu-menu-principal-container ul{
+        visibility:visible;
+    }
+
+    #menu::before {
+        font-family: FontAwesome;
+        content : "";
+        font-size: 30px;
+        padding : 5px;
+    }
+
+    #menu .menu-menu-principal-container ul{
+        visibility:hidden;
+        flex-direction: column;
+        width: 500px;
+        align-items: flex-end;
+        position: absolute;
+        top: 24px;
+        right: -13px;
+    }
+}
