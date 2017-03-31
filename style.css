@@ -185,7 +185,7 @@ RESPONSIVE
         visibility:hidden;
         flex-direction: column;
         width: 500px;
-        align-items: right;
+        align-items: flex-end;
         position: absolute;
         top: 24px;
         right: -13px;
