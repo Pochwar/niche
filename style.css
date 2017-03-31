@@ -184,7 +184,7 @@ RESPONSIVE
         color: #fff;
         background: rgba(0,0,0,0.7);
         width: 38px;
-        height: 34px;
+        height: 40px;
         right: 5px;
         border-radius: 5px;
         cursor: pointer;
@@ -195,8 +195,7 @@ RESPONSIVE
     }
 
     #menu::before {
-        font-family: FontAwesome;
-        content : "";
+        content : "☰";
         font-size: 30px;
         padding : 5px;
     }

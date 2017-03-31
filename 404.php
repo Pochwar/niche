@@ -9,7 +9,7 @@
             <div class="page-content">
                 <div id="error">
                 </div>
-                <p>Apparemment, rien n’a été trouvé à cette adresse. Essayez avec une recherche ?</p>
+                <p>Apparemment, rien n’a été trouvé à cette adresse. C'est normal vous n'avez rien à faire ici !</p>
                 <?php get_search_form(); ?>
             </div><!-- .page-content -->
         </section><!-- .error-404 -->
