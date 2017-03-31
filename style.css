@@ -106,6 +106,18 @@ div .entry{
 a{
     color: blue;
 }
+input{
+  background-image: linear-gradient(white, grey);
+  box-shadow: black 0 1px 0px 1px;
+  border-radius: 15px;
+}
+
+textarea{
+  background-image: linear-gradient(white, grey);
+  border-radius: 15px;
+  box-shadow: black 0 1px 0px 1px;
+}
+
 
 /*
 Theme Name: Niche
