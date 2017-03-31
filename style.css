@@ -65,21 +65,29 @@ blockquote{
   border-style: dotted;
 
 }
-.sidebar{
-  width: 15%;
-  height: 400px;
-  background-image: url(https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTp-n4oIi9l4ZYLqJiaH1_LfdpRVaLko-7ANLquw2K3cMYKBzmf);
-  color: black;
-  float: right;
+
+#content{
+    position:relative;
+    height: 100vh;
 }
+
 #container{
   color: black;
   text-align: left;
 }
+
 #container h2{
   text-align: center;
   text-transform: capitalize;
   text-shadow: green 0 -1px;
+}
+
+.sidebar{
+    color: black;
+    position: absolute;
+    top:0;
+    right:15px;
+
 }
 div .entry{
   font-style: italic;
