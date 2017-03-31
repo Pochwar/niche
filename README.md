@@ -2,7 +2,7 @@
 Projet de cours : Création de template wordpress
 
 # Dépendances :
-    Bootstrap 3.3.7.
+    Font-awesome, cdn dans le css
     Contact form 7 pour la gestion du formulaire de contact.
     Postman qui est une dépendance de contact form 7 pour l'envois de mail smtp.
     MailPoet qui permet l'abonnement à une newsletter.
