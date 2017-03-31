@@ -4,7 +4,7 @@
     </p>
     <hr>
     <p>
-        Site créé par : snipzer, poch, Aliz, LokiHash
+        Site créé par : Snipzer, Poch, Alyun, LokiHash
     </p>
 
 </div>

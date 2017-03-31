@@ -36,6 +36,7 @@ h1 a{
     padding: 5px 15px;
     border-radius: 5px;
     font-size: 2em;
+    text-decoration:none;
 }
 
 #menu{
@@ -104,13 +105,14 @@ h1 a{
 .sidebar #pub{
     padding:10px;
 }
+.sidebar{
+    color: #fff;
+    font-size :1.1em;
+}
 
 div .entry{
     font-style: italic;
-
-}
-a{
-    color: blue;
+    margin-left: 10px;
 }
 
 #footer{
@@ -127,11 +129,15 @@ a{
     margin : 0;
 }
 
-#commentform input, #commentform textarea{
+#commentform input, #commentform textarea, .wpcf7-form input, .wpcf7-form textarea{
     box-shadow: 1px 1px #989898;
     border-radius: 5px;
     background-image: linear-gradient(white, #d5d5d5);
     border: 0;
+}
+
+.comments-template{
+    margin-left:10px;
 }
 
 /*
