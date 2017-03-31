@@ -120,7 +120,6 @@ a{
     margin : 0;
 }
 
-
 /*
 RESPONSIVE
 */
@@ -158,5 +157,37 @@ RESPONSIVE
     }
     #header{
         height: 108px;
+    }
+
+    #menu{
+        top: 5px;
+        color: #fff;
+        background: rgba(0,0,0,0.7);
+        width: 38px;
+        height: 34px;
+        right: 5px;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+
+    #menu:hover .menu-menu-principal-container ul{
+        visibility:visible;
+    }
+
+    #menu::before {
+        font-family: FontAwesome;
+        content : "";
+        font-size: 30px;
+        padding : 5px;
+    }
+
+    #menu .menu-menu-principal-container ul{
+        visibility:hidden;
+        flex-direction: column;
+        width: 500px;
+        align-items: right;
+        position: absolute;
+        top: 24px;
+        right: -13px;
     }
 }
