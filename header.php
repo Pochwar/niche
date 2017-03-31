@@ -5,6 +5,7 @@
     <title><?php bloginfo('name'); ?><?php wp_title(); ?></title>
     <meta http-equiv="Content-Type" content="<?php bloginfo('html_type'); ?>; charset=<?php bloginfo('charset'); ?>" />
     <link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>" type="text/css" media="screen" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
     <?php wp_head(); ?>
 </head>
 <body>
@@ -17,7 +18,7 @@
 
             <?php get_template_part( 'template-parts/header/header', 'image' ); ?>
             <?php if ( has_nav_menu( 'header-menu' ) ) : ?>
-                <div id="menu">
+                <div id="menu" class="navbar navbar-toggleable-md">
                     <?php wp_nav_menu( array( 'theme_location' => 'header-menu' ) ); ?>
                 </div>
             <?php endif; ?>
