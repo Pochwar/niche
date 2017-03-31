@@ -1,17 +1,123 @@
+/*header*/
 #header{
-    background-image: url(http://www.o-saveurs-paysannes.fr/wp-content/uploads/2014/11/fond-prairie.jpg);
-    background-image: 100%;
-    color: red;
+    background-image: url('img/header.jpg');
+    background-size: cover;
+    height: 400px;
+    background-position-y: center;
+    position: relative;
 }
+
+#header p{
+    text-align: center;
+    color: #fff;
+    font-size: 1.5em;
+}
+
+body{
+    margin: 0;
+}
+
+h1{
+    text-align: center;
+    margin: 0;
+}
+
+h1 a{
+    color: #fff;
+    background: rgba(0,0,0,0.7);
+    padding: 5px 15px;
+    border-radius: 5px;
+    font-size: 2em;
+}
+
 #menu{
-  color: blue;
-  text-decoration: underline;
+    position: absolute;
+    bottom:0;
+    width: 100%;
+}
+
+#menu ul{
+    display : flex;
+    justify-content: center;
+}
+
+#menu li{
+    list-style: none;
+}
+
+#menu a{
+    color: #fff;
+    background: rgba(0,0,0,0.7);
+    padding: 5px;
+    margin: 0 15px;
+    border-radius: 5px;
+    font-size: 1.3em;
 }
 
 #wrapper{
-  background-image: url(https://upload.wikimedia.org/wikipedia/commons/1/10/Prairie_Ried_Illwald.jpg);
-  background-size: cover;
+
+    /*background-image: linear-gradient(green, white);*/
+    background-image: repeating-radial-gradient(white, green);
+
 }
+blockquote{
+    color: black;
+    border-style: dotted;
+
+}
+
+#content{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    height: 100vh;
+}
+
+#container{
+    color: black;
+    text-align: left;
+}
+
+#container h2{
+    text-align: center;
+    text-transform: capitalize;
+    text-shadow: green 0 -1px;
+}
+
+.sidebar{
+    width: 250px;
+    margin: 15px;
+    background: rgba(0,0,0,0.7);
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    border-radius: 5px;
+    align-items: center;
+}
+
+.sidebar #pub{
+
+}
+
+div .entry{
+    font-style: italic;
+
+}
+a{
+    color: blue;
+}
+input{
+  background-image: linear-gradient(white, grey);
+  box-shadow: black 0 1px 0px 1px;
+  border-radius: 15px;
+}
+
+textarea{
+  background-image: linear-gradient(white, grey);
+  border-radius: 15px;
+  box-shadow: black 0 1px 0px 1px;
+}
+
 
 /*
 Theme Name: Niche
